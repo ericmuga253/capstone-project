@@ -87,7 +87,7 @@ def url_to_soup(url):
     return job_list
 
 
-db = Job_table(host = 'localhost', user = 'root', password = 'Samcro2010%', database_name = 'job_listing_db')
+db = Job_table(host = 'localhost', user = 'root', password = 'password', database_name = 'job_listing_db')
 
 db.create_database()
 db.check_database()
